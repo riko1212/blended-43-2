@@ -1,51 +1,99 @@
 :root {
-    --main-text-color: #999999;
-    --secondary-text-color: #FFFFFF;
-    --accent-color: #4985FF;
-    --main-title-color: #FFFFFF;
-    --secondary-title-color: #323232;
-    --third-title-color: #000000;
+  --main-text-color: #999999;
+  --secondary-text-color: #ffffff;
+  --accent-color: #4985ff;
+  --main-title-color: #ffffff;
+  --secondary-title-color: #323232;
+  --third-title-color: #000000;
 }
 body {
-    font-family: 'Montserrat', sans-serif;
-    color: var(--main-text-color)
-    }
-    .list {
-        list-style: none;
-    }
+  font-family: "Montserrat", sans-serif;
+  color: var(--main-text-color);
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+ul {
+  margin: 0;
+  padding: 0;
+}
+.list {
+  list-style: none;
+}
+.container {
+  width: 1140px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+.btn {
+  width: 200px;
+  height: 45px;
+  border: transparent;
+  border-radius: 30px;
 
-    .link {
-        text-decoration: none;
-    }
-    .nav-link {
-font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
-color: var(--secondary-text-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
 
-    }
-.header, .hero {
-    background-color: gold;
+.link {
+  text-decoration: none;
+}
+.nav-list {
+  display: flex;
+  justify-content: end;
+}
+.nav-item:not(:last-child) {
+  margin-right: 40px;
+}
+.nav-link {
+  display: block;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
+}
+.header {
+  background-color: gold;
+}
+
+.hero {
+  padding-top: 220px;
+  padding-bottom: 335px;
+  background-color: gold;
 }
 .hero-text {
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
-color: var(--secondary-text-color);
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  color: var(--secondary-text-color);
 }
 
 .hero-title {
-    font-weight: 800;
-font-size: 48px;
-line-height: 1.33;
-text-align: center;
-color: var(--main-title-color);
+  margin: 0 auto;
+  max-width: 829px;
+  margin-bottom: 50px;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 1.33;
+  text-align: center;
+  color: var(--main-title-color);
 }
 .hero-btn {
-    font-family: inherit;
-    font-weight: 500;
-font-size: 16px;
-line-height: 1.25;
-color: var(--secondary-text-color);
-background-color: var(--accent-color);
+  display: block;
+  margin: 0 auto;
 }
