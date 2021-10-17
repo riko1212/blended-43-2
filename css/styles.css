@@ -98,12 +98,12 @@ ul {
   margin: 0 auto;
 }
 
-.mobile{
+.mobile {
   padding-top: 110px;
   padding-bottom: 110px;
 }
 
-.mobile-title{
+.mobile-title {
   margin: 0 auto;
   margin-bottom: 50px;
   max-width: 739px;
@@ -111,45 +111,93 @@ ul {
   font-size: 36px;
   line-height: 1.47;
   text-align: center;
-  color: var(--secondary-title-color)
+  color: var(--secondary-title-color);
 }
 
-.mobile-text{
+.mobile-text {
   margin: 0 auto;
   margin-bottom: 80px;
   max-width: 730px;
   font-size: 16px;
   line-height: 1.56;
   text-align: center;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
-.mobile-list{
+.mobile-list {
   display: flex;
   margin-bottom: 55px;
   margin-left: -27px;
 }
 
-.mobile-item{
+.mobile-item {
   flex-basis: calc(100% / 3 - 27px);
   margin-left: 27px;
 }
 
-.mobile-item-title{
+.mobile-item-title {
   margin-bottom: 12px;
   font-weight: 600;
   font-size: 18px;
   line-height: 1.22;
-  color: var(--third-title-color)
+  color: var(--third-title-color);
 }
 
-.mobile-item-text{
+.mobile-item-text {
   font-size: 14px;
   line-height: 1.57;
-  color: var(--main-text-color)
+  color: var(--main-text-color);
 }
 
-.mobile-btn{
+.mobile-btn {
   display: block;
-  margin: 0 auto
+  margin: 0 auto;
+}
+.about {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+.about-title {
+  margin-bottom: 40px;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.47;
+  color: var(--secondary-title-color);
+}
+.about-text {
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.56;
+}
+.about-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+
+  color: var(--accent-color);
+}
+.about-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 90px;
+  margin-bottom: 70px;
+}
+.about-content {
+  width: 489px;
+}
+.about-list {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-item-count {
+  font-size: 36px;
+  line-height: 1.47;
+
+  color: var(--third-title-color);
+}
+.about-item-text {
+  font-size: 16px;
+  line-height: 1.56;
 }
