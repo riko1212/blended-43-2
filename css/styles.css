@@ -303,3 +303,27 @@ ul {
     display: block;
     margin: 0 auto;
 }
+
+.slick-next:before {
+    content: "";
+    width: 30px;
+    height: 30px;
+    display: block;
+    background-image: url(../images/rectangle2-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.slick-dots li button:before {
+    content: "🤪";
+    font-size: 18px;
+}
+
+.slick-dots li.slick-active button:before {
+    content: "😏";
+}
+
+.bg-danger {
+    background-color: chocolate !important;
+}
